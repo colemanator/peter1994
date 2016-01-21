@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/react-slick/node_modules/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Peter Coleman's portfolio">
+    <meta name="keywords" content="Peter Coleman Web developer React">
+    <meta name="author" content="Peter Coleman">
+    <title>Peter1994</title>
+</head>
+<body>
+<header id="home">
+    <div class="row">
+        <div id="logo" class="col-xs-4">
+            <img class="logo" src="./images/logo-peter1994.png" alt="site logo">
+        </div>
+        <div id="menu" class="col-xs-8"></div>
+    </div>
+</header>
+<main class="row">
+    <section class="row" id="slider-section">
+        <div id="slider" class="row"></div>
+    </section>
+    <section class="row" id="about">
+
+        <div class="col-md-6 profile-image-wrapper">
+            <img class="profile-image" src="./images/img-profile.jpg" alt="my profile picture">
+        </div>
+        <div class="col-md-6">
+            <h2>About me</h2>
+
+            <p class="about-text">
+                Welcome This Website is my online resume, featuring a portfolio of my work.
+                I have a heart to pursue excellence in work and in every area of my life,
+                I apply myself fully to my work and am always looking to learn and grow.
+                I enjoy and excel working in a team environment and I am Committed to being apart
+                of and creating a positive work environment.
+            </p>
+
+            <p class="about-text">
+                My Career Objective is to purses web development as my primary focus within Information Technology.
+                I have just finished my degree at the Queensland University of Technology and I am now looking to
+                further focus and practice my skills in web development.
+            </p>
+
+            <div class="button-wrapper" id="button-email"></div>
+        </div>
+    </section>
+    <section class="row" id="strengths">
+
+        <div class="standard">
+            <h1 class="separator">Key strengths</h1>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4>Node.js</h4>
+                    <img class="icon" src="images/icons/icon-nodejs.png" alt="node.js icon">
+
+                    <p>
+                        I have worked with many frameworks and libraries while working with node.js,
+                        I have expreiance with ember.js, react.js, angular,js and a host of other node components
+                        I have really enjoyed learning and working with node.js.
+
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4>PHP</h4>
+                    <img class="icon" src="images/icons/icon-php.png" alt="node.js icon">
+
+                    <p>
+                        PHP was the first language i started programing websites in and although i
+                        prefer working with node now i still have plenty of experience with PHP. Ive built sites form
+                        scratch with PHP while also spending many hours building and editing plugins for Wordpress.
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4>Design</h4>
+                    <img class="icon" src="images/icons/icon-design.png" alt="node.js icon">
+
+                    <p>
+                        I've always really enjoyed design and I believe I have a good eye for clean minamilistic design,
+                        I also took a
+                        number of design courses while at university.
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4>Experience</h4>
+                    <img class="icon" src="images/icons/icon-time.png" alt="node.js icon">
+
+                    <p>
+                        During my course at university I did a placement as an intern after my internship was finished
+                        I was asked to stay and work with them contacted. Ive been working there for 8 months and have
+                        gained
+                        valuable experience and knowledge.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4>Team</h4>
+                    <img class="icon" src="images/icons/icon-people.png" alt="node.js icon">
+
+                    <p>
+                        I really enjoy working as part of a team, I have vast experience working with teams both at my
+                        current job and previous
+                        employment. I also lead a team that run a youth program in Caboolture every second Friday Night
+                        with about 30 youth.
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4>Communication</h4>
+                    <img class="icon" src="images/icons/icon-communication.png" alt="node.js icon">
+
+                    <p>
+                        Communication is essential in any workplace, especial in teams and during my 6 years of work
+                        experience and studies I have learnt to communicate effectively.
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4>HTML/CSS <br> Javascript</h4>
+                    <img class="icon" src="images/icons/icon-world.png" alt="node.js icon">
+
+                    <p>
+                        Like almost all web developers I am very comfortable developing front end design through HTML
+                        and CSS and
+                        JavaScript libraries like jQuery.
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-6 strength">
+                    <h4></h4>
+
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row" id="portfolio">
+        <div class="standard">
+
+            <h1 class="separator">Portfolio</h1>
+
+            <div class="row item">
+                <div class="col-md-6 item-image-wrapper">
+                    <img class="item-image" src="./images/portfolio/img-portfolio-prime.png" alt="prime number picture">
+                </div>
+                <div class="col-md-6 item-text-wrapper">
+                    <h2>Prime Number Graph</h2>
+
+                    <p>
+                        This was a university Project created to demonstrate our ability to develop and deploy a
+                        scalable application to a
+                        cloud hosting service. The app takes a min and a max value and calculates the number of primes
+                        between those two numbers
+                        while also displaying the distribution of prime number on a Graph. The idea was to generate
+                        enough load through the prime number sift
+                        to educe configured automatic scaling. Although one of the initial reason for creating this app
+                        was it would generate load, it still
+                        uses a square root sift which increases efficacy. The app is built using node.js express and was
+                        designed to be as simple and
+                        minimalistic as possible.
+                    </p>
+
+                    <p>
+                        Click on the button below to view the app running on Azure however the application
+                        will no longer scale due to increase in expense when scaling. You can also check out the project
+                        in GitHub by clicking below.
+
+                    </p>
+
+                    <div class="button-wrapper" id="button-prime"></div>
+                    <div class="button-wrapper" id="button-prime-git"></div>
+                </div>
+            </div>
+            <div class="row item">
+                <div class="col-md-6 item-text-wrapper">
+                    <h2>Astronomy Conditions</h2>
+
+                    <p>
+                        This web app uses a number of different APIs to create a much up that displays the viewing
+                        conditions for your current location.
+                        The idea for this app came out off my interest for Astronomy, i really enjoy using my telescope
+                        to peer into the sky above, so i thought it would
+                        be a god idea to create an app that could tell me the viewing conditions for my location. The
+                        application uses google maps and two weather chanel APIs to
+                        to calculate and display the viewing conditions.
+                    </p>
+
+                    <p>
+                        This application was also built on node.js using express, uses the buttons below to either check
+                        out the app or view it on GitHub
+                    </p>
+
+                    <div class="button-wrapper" id="button-astronomy"></div>
+                    <div class="button-wrapper" id="button-astronomy-git"></div>
+                </div>
+                <div class="col-md-6 item-image-wrapper">
+                    <img class="item-image" src="./images/portfolio/img-portfolio-astronomy.png"
+                         alt="prime number picture">
+                </div>
+            </div>
+            <div class="row item">
+                <div class="col-md-6 item-image-wrapper">
+
+                </div>
+                <div class="col-md-6 item-text-wrapper">
+                    <h2></h2>
+
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer></footer>
+<script src="index.js"></script>
+</body>
+</html>
